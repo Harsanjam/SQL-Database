@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  <!-- Copy everything from the input XML that is not matched by any template -->
+  <xsl:template match="@*|node()">
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+    </xsl:copy>
+  </xsl:template>
+  <!-- Match the root element and transform the result -->
+  <xsl:template match="/">
+    <html>
+      <head>
+        <style>
+          table {
+            font-family: Arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+          }
+          th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+          }
+          th {
+            background-color: #f2f2f2;
+          }
+        </style>
+      </head>
+      <body>
+        <h2>List of Players' Positions - Point Guard</h2>
+        <table>
+          <tr>
+            <th>Player ID</th>
+            <th>Name</th>
+            <th>Position</th>
+            <th>Field Goal Percentage</th>
+            <th>Free Throw Percentage</th>
+            <th>Three Point Percentage</th>
+            <th>Number of Penalties</th>
+            <th>Points Per Game</th>
+            <th>Assists Per Game</th>
+            <th> Rebounds Per Game</th>
+          </tr>
+          <!-- Apply templates to the result -->
+          <xsl:apply-templates select="//row[Position = 'Point Guard']"/>
+        </table>
+      </body>
+    </html>
+  </xsl:template>
+  <!-- Match the row element with the specified position -->
+  <xsl:template match="row[Position = 'Point Guard']">
+    <tr>
+      <td><xsl:value-of select="PlayerID"/></td>
+      <td><xsl:value-of select="Name"/></td>
+      <td><xsl:value-of select="Position"/></td>
+      <td><xsl:value-of select="FieldGoalPercentage"/></td>
+      <td><xsl:value-of select="FreeThrowPercentage"/></td>
+      <td><xsl:value-of select="ThreePointPercentage"/></td>
+      <td><xsl:value-of select="NumberOfPenalties"/></td>
+      <td><xsl:value-of select="PointsPerGame"/></td>
+      <td><xsl:value-of select="AssistsPerGame"/></td>
+      <td><xsl:value-of select="ReboundsPerGame"/></td>
+    </tr>
+  </xsl:template>
+</xsl:stylesheet>

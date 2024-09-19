@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+  <!-- Copy everything from the input XML that is not matched by any template -->
+  <xsl:template match="@*|node()">
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+    </xsl:copy>
+  </xsl:template>
+
+  <!-- Match the root element and transform the result -->
+  <xsl:template match="/">
+    <html>
+      <head>
+        <style>
+          table {
+            font-family: Arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+          }
+          th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+          }
+          th {
+            background-color: #f2f2f2;
+          }
+        </style>
+      </head>
+      <body>
+        <h2>Players Under 30 Years Old</h2>
+        <table>
+          <tr>
+<th>Player ID</th>
+            <th>Name</th>
+ <th>Age</th>
+ <th>BirthDate</th>
+          </tr>
+          <!-- Apply templates to the result -->
+          <xsl:apply-templates select="//row"/>
+        </table>
+      </body>
+    </html>
+  </xsl:template>
+
+  <!-- Match the row element and display the player's name -->
+  <xsl:template match="row">
+    <xsl:if test="Age &lt; 30">
+      <tr>
+        <td><xsl:value-of select="PlayerID"/></td>
+        <td><xsl:value-of select="Name"/></td>
+        <td><xsl:value-of select="Age"/></td>
+        <td><xsl:value-of select="BirthDate"/></td>
+
+      </tr>
+    </xsl:if>
+  </xsl:template>
+</xsl:stylesheet>

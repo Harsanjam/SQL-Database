@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+  <!-- Copy everything from the input XML that is not matched by any template -->
+  <xsl:template match="@*|node()">
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+    </xsl:copy>
+  </xsl:template>
+
+  <!-- Match the root element and transform the result -->
+  <xsl:template match="/">
+    <html>
+      <head>
+        <style>
+          table {
+            font-family: Arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+          }
+          th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+          }
+          th {
+            background-color: #f2f2f2;
+          }
+        </style>
+      </head>
+      <body>
+        <h2>Teams Founded Before 1970</h2>
+        <table>
+          <tr>
+            <th>TeamID</th>
+            <th>TeamName</th>
+            <th>Founded</th>
+<th>Sponsor</th>
+            <th>Record</th>
+          </tr>
+          <!-- Apply templates to the result -->
+          <xsl:apply-templates select="//row[Founded &lt; 1970]">
+            <xsl:sort select="Founded" data-type="number" order="ascending"/>
+          </xsl:apply-templates>
+        </table>
+      </body>
+    </html>
+  </xsl:template>
+
+  <!-- Match the row element and display the team's information -->
+  <xsl:template match="row">
+      <tr>
+        <td><xsl:value-of select="TeamID"/></td>
+        <td><xsl:value-of select="TeamName"/></td>
+        <td><xsl:value-of select="Founded"/></td>
+        <td><xsl:value-of select="Sponsor"/></td>
+        <td><xsl:value-of select="Record"/></td>
+      </tr>
+  </xsl:template>
+</xsl:stylesheet>

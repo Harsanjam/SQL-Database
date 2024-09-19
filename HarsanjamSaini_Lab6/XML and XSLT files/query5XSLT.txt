@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+  <!-- Copy everything from the input XML that is not matched by any template -->
+  <xsl:template match="@*|node()">
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+    </xsl:copy>
+  </xsl:template>
+
+  <!-- Match the root element and transform the result -->
+  <xsl:template match="/">
+    <html>
+      <head>
+        <style>
+          table {
+            font-family: Arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+          }
+          th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+          }
+          th {
+            background-color: #f2f2f2;
+          }
+        </style>
+      </head>
+      <body>
+        <h2>List of Players with the Most Points Per Game (Highest to Lowest)</h2>
+        <table>
+          <tr>
+<th>PlayerID</th>
+            <th>Name</th>
+            <th>Points Per Game</th>
+<th>Position</th>
+<th>Age</th>
+<th>Awards</th>
+          </tr>
+          <!-- Apply templates to select players with the most PointsPerGame -->
+          <xsl:apply-templates select="//row">
+            <xsl:sort select="PointsPerGame" data-type="number" order="descending"/>
+          </xsl:apply-templates>
+        </table>
+      </body>
+    </html>
+  </xsl:template>
+
+  <!-- Match the row elements and display player name and PointsPerGame -->
+  <xsl:template match="row">
+    <tr>
+      <td><xsl:value-of select="PlayerID"/></td>
+      <td><xsl:value-of select="Name"/></td>
+      <td><xsl:value-of select="PointsPerGame"/></td>
+      <td><xsl:value-of select="Position"/></td>
+      <td><xsl:value-of select="Age"/></td>
+      <td><xsl:value-of select="Awards"/></td>
+
+    </tr>
+  </xsl:template>
+
+</xsl:stylesheet>

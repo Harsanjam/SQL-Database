@@ -1,0 +1,1107 @@
+<database>
+    <tables>
+        <table name="Player">
+            <row>
+                <PlayerID>1</PlayerID>
+                <Name>LeBron James</Name>
+                <Age>36</Age>
+                <BirthDate>1984-12-30</BirthDate>
+                <Height>6.9</Height>
+                <Weight>250</Weight>
+                <Position>Small Forward</Position>
+                <College>None</College>
+                <Attendance>20</Attendance>
+                <Awards>15</Awards>
+                <NumberofWins>10</NumberofWins>
+                <NumberofLosses>5</NumberofLosses>
+                <NumberofDraws>3</NumberofDraws>
+                <FieldGoalPercentage>50.5</FieldGoalPercentage>
+                <FreeThrowPercentage>75.3</FreeThrowPercentage>
+                <ThreePointPercentage>35.2</ThreePointPercentage>
+                <NumberOfPenalties>2</NumberOfPenalties>
+                <PointsPerGame>28.5</PointsPerGame>
+                <AssistsPerGame>10.5</AssistsPerGame>
+                <ReboundsPerGame>8.7</ReboundsPerGame>
+                <TeamID>1</TeamID>
+                <StateID>1</StateID>
+            </row>
+
+
+            <row>
+                <PlayerID>2</PlayerID>
+                <Name>Stephen Curry</Name>
+                <Age>33</Age>
+                <BirthDate>1988-03-14</BirthDate>
+                <Height>6.3</Height>
+                <Weight>190</Weight>
+                <Position>Point Guard</Position>
+                <College>Davidson College</College>
+                <Attendance>22</Attendance>
+                <Awards>20</Awards>
+                <NumberofWins>12</NumberofWins>
+                <NumberofLosses>3</NumberofLosses>
+                <NumberofDraws>7</NumberofDraws>
+                <FieldGoalPercentage>48.2</FieldGoalPercentage>
+                <FreeThrowPercentage>92.1</FreeThrowPercentage>
+                <ThreePointPercentage>42.5</ThreePointPercentage>
+                <NumberOfPenalties>3</NumberOfPenalties>
+                <PointsPerGame>32.6</PointsPerGame>
+                <AssistsPerGame>9.8</AssistsPerGame>
+                <ReboundsPerGame>5.2</ReboundsPerGame>
+                <TeamID>2</TeamID>
+                <StateID>1</StateID>
+            </row>
+            <row>
+                <PlayerID>3</PlayerID>
+                <Name>Kevin Durant</Name>
+                <Age>33</Age>
+                <BirthDate>1988-09-29</BirthDate>
+                <Height>6.10</Height>
+                <Weight>240</Weight>
+                <Position>Power Forward</Position>
+                <College>University of Texas</College>
+                <Attendance>18</Attendance>
+                <Awards>18</Awards>
+                <NumberofWins>8</NumberofWins>
+                <NumberofLosses>7</NumberofLosses>
+                <NumberofDraws>3</NumberofDraws>
+                <FieldGoalPercentage>52.7</FieldGoalPercentage>
+                <FreeThrowPercentage>88.9</FreeThrowPercentage>
+                <ThreePointPercentage>38.9</ThreePointPercentage>
+                <NumberOfPenalties>1</NumberOfPenalties>
+                <PointsPerGame>30.2</PointsPerGame>
+                <AssistsPerGame>7.5</AssistsPerGame>
+                <ReboundsPerGame>9.1</ReboundsPerGame>
+                <TeamID>1</TeamID>
+                <StateID>2</StateID>
+            </row>
+            <row>
+                <PlayerID>4</PlayerID>
+                <Name>Kawhi Leonard</Name>
+                <Age>30</Age>
+                <BirthDate>1991-06-29</BirthDate>
+                <Height>6.7</Height>
+                <Weight>225</Weight>
+                <Position>Small Forward</Position>
+                <College>San Diego State University</College>
+                <Attendance>19</Attendance>
+                <Awards>20</Awards>
+                <NumberofWins>9</NumberofWins>
+                <NumberofLosses>8</NumberofLosses>
+                <NumberofDraws>2</NumberofDraws>
+                <FieldGoalPercentage>47.8</FieldGoalPercentage>
+                <FreeThrowPercentage>87.4</FreeThrowPercentage>
+                <ThreePointPercentage>40.1</ThreePointPercentage>
+                <NumberOfPenalties>2</NumberOfPenalties>
+                <PointsPerGame>26.8</PointsPerGame>
+                <AssistsPerGame>6.9</AssistsPerGame>
+                <ReboundsPerGame>7.3</ReboundsPerGame>
+                <TeamID>1</TeamID>
+                <StateID>1</StateID>
+            </row>
+            <row>
+                <PlayerID>5</PlayerID>
+                <Name>Giannis Antetokounmpo</Name>
+                <Age>27</Age>
+                <BirthDate>1994-12-06</BirthDate>
+                <Height>6.11</Height>
+                <Weight>242</Weight>
+                <Position>Power Forward</Position>
+                <College>None</College>
+                <Attendance>21</Attendance>
+                <Awards>22</Awards>
+                <NumberofWins>11</NumberofWins>
+                <NumberofLosses>6</NumberofLosses>
+                <NumberofDraws>4</NumberofDraws>
+                <FieldGoalPercentage>54.2</FieldGoalPercentage>
+                <FreeThrowPercentage>72.5</FreeThrowPercentage>
+                <ThreePointPercentage>31.6</ThreePointPercentage>
+                <NumberOfPenalties>3</NumberOfPenalties>
+                <PointsPerGame>31.5</PointsPerGame>
+                <AssistsPerGame>8.2</AssistsPerGame>
+                <ReboundsPerGame>11.4</ReboundsPerGame>
+                <TeamID>2</TeamID>
+                <StateID>1</StateID>
+            </row>
+            <row>
+                <PlayerID>6</PlayerID>
+                <Name>James Harden</Name>
+                <Age>33</Age>
+                <BirthDate>1989-08-26</BirthDate>
+                <Height>6.5</Height>
+                <Weight>220</Weight>
+                <Position>Shooting Guard</Position>
+                <College>Arizona State University</College>
+                <Attendance>20</Attendance>
+                <Awards>18</Awards>
+                <NumberofWins>12</NumberofWins>
+                <NumberofLosses>8</NumberofLosses>
+                <NumberofDraws>2</NumberofDraws>
+                <FieldGoalPercentage>45.9</FieldGoalPercentage>
+                <FreeThrowPercentage>90.3</FreeThrowPercentage>
+                <ThreePointPercentage>36.8</ThreePointPercentage>
+                <NumberOfPenalties>4</NumberOfPenalties>
+                <PointsPerGame>29.7</PointsPerGame>
+                <AssistsPerGame>11.9</AssistsPerGame>
+                <ReboundsPerGame>5.3</ReboundsPerGame>
+                <TeamID>2</TeamID>
+                <StateID>1</StateID>
+            </row>
+            <row>
+                <PlayerID>7</PlayerID>
+                <Name>Anthony Davis</Name>
+                <Age>29</Age>
+                <BirthDate>1993-03-11</BirthDate>
+                <Height>6.10</Height>
+                <Weight>253</Weight>
+                <Position>Power Forward</Position>
+                <College>University of Kentucky</College>
+                <Attendance>16</Attendance>
+                <Awards>18</Awards>
+                <NumberofWins>7</NumberofWins>
+                <NumberofLosses>5</NumberofLosses>
+                <NumberofDraws>1</NumberofDraws>
+                <FieldGoalPercentage>52.3</FieldGoalPercentage>
+                <FreeThrowPercentage>75.6</FreeThrowPercentage>
+                <ThreePointPercentage>33.8</ThreePointPercentage>
+                <NumberOfPenalties>2</NumberOfPenalties>
+                <PointsPerGame>27.3</PointsPerGame>
+                <AssistsPerGame>5.6</AssistsPerGame>
+                <ReboundsPerGame>9.8</ReboundsPerGame>
+                <TeamID>1</TeamID>
+                <StateID>1</StateID>
+            </row>
+            <row>
+                <PlayerID>8</PlayerID>
+                <Name>Luka Doncic</Name>
+                <Age>23</Age>
+                <BirthDate>1999-02-28</BirthDate>
+                <Height>6.7</Height>
+                <Weight>230</Weight>
+                <Position>Point Guard</Position>
+                <College>None</College>
+                <Attendance>20</Attendance>
+                <Awards>15</Awards>
+                <NumberofWins>11</NumberofWins>
+                <NumberofLosses>4</NumberofLosses>
+                <NumberofDraws>1</NumberofDraws>
+                <FieldGoalPercentage>48.9</FieldGoalPercentage>
+                <FreeThrowPercentage>83.2</FreeThrowPercentage>
+                <ThreePointPercentage>36.5</ThreePointPercentage>
+                <NumberOfPenalties>3</NumberOfPenalties>
+                <PointsPerGame>33.1</PointsPerGame>
+                <AssistsPerGame>10.4</AssistsPerGame>
+                <ReboundsPerGame>8.9</ReboundsPerGame>
+                <TeamID>2</TeamID>
+                <StateID>1</StateID>
+            </row>
+            <row>
+                <PlayerID>9</PlayerID>
+                <Name>Damian Lillard</Name>
+                <Age>32</Age>
+                <BirthDate>1990-07-15</BirthDate>
+                <Height>6.2</Height>
+                <Weight>195</Weight>
+                <Position>Point Guard</Position>
+                <College>Weber State University</College>
+                <Attendance>19</Attendance>
+                <Awards>16</Awards>
+                <NumberofWins>10</NumberofWins>
+                <NumberofLosses>6</NumberofLosses>
+                <NumberofDraws>3</NumberofDraws>
+                <FieldGoalPercentage>45.6</FieldGoalPercentage>
+                <FreeThrowPercentage>90.1</FreeThrowPercentage>
+                <ThreePointPercentage>39.8</ThreePointPercentage>
+                <NumberOfPenalties>3</NumberOfPenalties>
+                <PointsPerGame>29.5</PointsPerGame>
+                <AssistsPerGame>7.8</AssistsPerGame>
+                <ReboundsPerGame>4.3</ReboundsPerGame>
+                <TeamID>3</TeamID>
+                <StateID>2</StateID>
+            </row>
+            <row>
+                <PlayerID>10</PlayerID>
+                <Name>Devin Booker</Name>
+                <Age>25</Age>
+                <BirthDate>1996-10-30</BirthDate>
+                <Height>6.6</Height>
+                <Weight>206</Weight>
+                <Position>Shooting Guard</Position>
+                <College>University of Kentucky</College>
+                <Attendance>18</Attendance>
+                <Awards>17</Awards>
+                <NumberofWins>9</NumberofWins>
+                <NumberofLosses>6</NumberofLosses>
+                <NumberofDraws>2</NumberofDraws>
+                <FieldGoalPercentage>46.8</FieldGoalPercentage>
+                <FreeThrowPercentage>85.3</FreeThrowPercentage>
+                <ThreePointPercentage>35.2</ThreePointPercentage>
+                <NumberOfPenalties>2</NumberOfPenalties>
+                <PointsPerGame>28.4</PointsPerGame>
+                <AssistsPerGame>6.2</AssistsPerGame>
+                <ReboundsPerGame>4.7</ReboundsPerGame>
+                <TeamID>5</TeamID>
+                <StateID>5</StateID>
+            </row>
+            <row>
+                <PlayerID>11</PlayerID>
+                <Name>Joel Embiid</Name>
+                <Age>28</Age>
+                <BirthDate>1993-03-16</BirthDate>
+                <Height>7.0</Height>
+                <Weight>280</Weight>
+                <Position>Center</Position>
+                <College>University of Kansas</College>
+                <Attendance>20</Attendance>
+                <Awards>20</Awards>
+                <NumberofWins>8</NumberofWins>
+                <NumberofLosses>7</NumberofLosses>
+                <NumberofDraws>3</NumberofDraws>
+                <FieldGoalPercentage>49.5</FieldGoalPercentage>
+                <FreeThrowPercentage>79.8</FreeThrowPercentage>
+                <ThreePointPercentage>32.1</ThreePointPercentage>
+                <NumberOfPenalties>3</NumberOfPenalties>
+                <PointsPerGame>30.9</PointsPerGame>
+                <AssistsPerGame>4.6</AssistsPerGame>
+                <ReboundsPerGame>11.8</ReboundsPerGame>
+                <TeamID>6</TeamID>
+                <StateID>6</StateID>
+            </row>
+            <row>
+                <PlayerID>12</PlayerID>
+                <Name>Chris Paul</Name>
+                <Age>38</Age>
+                <BirthDate>1985-05-06</BirthDate>
+                <Height>6.1</Height>
+                <Weight>175</Weight>
+                <Position>Point Guard</Position>
+                <College>Wake Forest University</College>
+                <Attendance>19</Attendance>
+                <Awards>18</Awards>
+                <NumberofWins>10</NumberofWins>
+                <NumberofLosses>8</NumberofLosses>
+                <NumberofDraws>1</NumberofDraws>
+                <FieldGoalPercentage>46.2</FieldGoalPercentage>
+                <FreeThrowPercentage>88.7</FreeThrowPercentage>
+                <ThreePointPercentage>37.5</ThreePointPercentage>
+                <NumberOfPenalties>1</NumberOfPenalties>
+                <PointsPerGame>26.7</PointsPerGame>
+                <AssistsPerGame>9.3</AssistsPerGame>
+                <ReboundsPerGame>5.1</ReboundsPerGame>
+                <TeamID>5</TeamID>
+                <StateID>5</StateID>
+            </row>
+            <row>
+                <PlayerID>13</PlayerID>
+                <Name>Donovan Mitchell</Name>
+                <Age>26</Age>
+                <BirthDate>1996-09-07</BirthDate>
+                <Height>6.1</Height>
+                <Weight>215</Weight>
+                <Position>Shooting Guard</Position>
+                <College>University of Louisville</College>
+                <Attendance>17</Attendance>
+                <Awards>16</Awards>
+                <NumberofWins>8</NumberofWins>
+                <NumberofLosses>9</NumberofLosses>
+                <NumberofDraws>1</NumberofDraws>
+                <FieldGoalPercentage>45.6</FieldGoalPercentage>
+                <FreeThrowPercentage>87.2</FreeThrowPercentage>
+                <ThreePointPercentage>36.9</ThreePointPercentage>
+                <NumberOfPenalties>2</NumberOfPenalties>
+                <PointsPerGame>27.8</PointsPerGame>
+                <AssistsPerGame>5.4</AssistsPerGame>
+                <ReboundsPerGame>4.9</ReboundsPerGame>
+                <TeamID>7</TeamID>
+                <StateID>7</StateID>
+            </row>
+            <row>
+                <PlayerID>14</PlayerID>
+                <Name>Jimmy Butler</Name>
+                <Age>32</Age>
+                <BirthDate>1989-09-14</BirthDate>
+                <Height>6.7</Height>
+                <Weight>230</Weight>
+                <Position>Small Forward</Position>
+                <College>Marquette University</College>
+                <Attendance>19</Attendance>
+                <Awards>20</Awards>
+                <NumberofWins>7</NumberofWins>
+                <NumberofLosses>8</NumberofLosses>
+                <NumberofDraws>2</NumberofDraws>
+                <FieldGoalPercentage>47.3</FieldGoalPercentage>
+                <FreeThrowPercentage>82.9</FreeThrowPercentage>
+                <ThreePointPercentage>34.5</ThreePointPercentage>
+                <NumberOfPenalties>3</NumberOfPenalties>
+                <PointsPerGame>25.3</PointsPerGame>
+                <AssistsPerGame>7.1</AssistsPerGame>
+                <ReboundsPerGame>6.8</ReboundsPerGame>
+                <TeamID>8</TeamID>
+                <StateID>8</StateID>
+            </row>
+            <row>
+                <PlayerID>15</PlayerID>
+                <Name>Karl-Anthony Towns</Name>
+                <Age>27</Age>
+                <BirthDate>1995-11-15</BirthDate>
+                <Height>7.0</Height>
+                <Weight>248</Weight>
+                <Position>Center</Position>
+                <College>University of Kentucky</College>
+                <Attendance>18</Attendance>
+                <Awards>17</Awards>
+                <NumberofWins>10</NumberofWins>
+                <NumberofLosses>7</NumberofLosses>
+                <NumberofDraws>1</NumberofDraws>
+                <FieldGoalPercentage>51.2</FieldGoalPercentage>
+                <FreeThrowPercentage>79.5</FreeThrowPercentage>
+                <ThreePointPercentage>39.2</ThreePointPercentage>
+                <NumberOfPenalties>2</NumberOfPenalties>
+                <PointsPerGame>29.6</PointsPerGame>
+                <AssistsPerGame>4.2</AssistsPerGame>
+                <ReboundsPerGame>12.4</ReboundsPerGame>
+                <TeamID>7</TeamID>
+                <StateID>7</StateID>
+            </row>
+            <row>
+                <PlayerID>16</PlayerID>
+                <Name>Devin Vassell</Name>
+                <Age>22</Age>
+                <BirthDate>2000-08-23</BirthDate>
+                <Height>6.6</Height>
+                <Weight>200</Weight>
+                <Position>Small Forward</Position>
+                <College>Florida State University</College>
+                <Attendance>16</Attendance>
+                <Awards>10</Awards>
+                <NumberofWins>6</NumberofWins>
+                <NumberofLosses>10</NumberofLosses>
+                <NumberofDraws>2</NumberofDraws>
+                <FieldGoalPercentage>43.8</FieldGoalPercentage>
+                <FreeThrowPercentage>78.5</FreeThrowPercentage>
+                <ThreePointPercentage>35.9</ThreePointPercentage>
+                <NumberOfPenalties>1</NumberOfPenalties>
+                <PointsPerGame>15.7</PointsPerGame>
+                <AssistsPerGame>3.2</AssistsPerGame>
+                <ReboundsPerGame>5.4</ReboundsPerGame>
+                <TeamID>9</TeamID>
+                <StateID>9</StateID>
+            </row>
+            <row>
+                <PlayerID>17</PlayerID>
+                <Name>Tyrese Haliburton</Name>
+                <Age>22</Age>
+                <BirthDate>2000-02-29</BirthDate>
+                <Height>6.5</Height>
+                <Weight>175</Weight>
+                <Position>Point Guard</Position>
+                <College>Iowa State University</College>
+                <Attendance>15</Attendance>
+                <Awards>8</Awards>
+                <NumberofWins>5</NumberofWins>
+                <NumberofLosses>12</NumberofLosses>
+                <NumberofDraws>3</NumberofDraws>
+                <FieldGoalPercentage>41.2</FieldGoalPercentage>
+                <FreeThrowPercentage>85.3</FreeThrowPercentage>
+                <ThreePointPercentage>32.6</ThreePointPercentage>
+                <NumberOfPenalties>1</NumberOfPenalties>
+                <PointsPerGame>12.9</PointsPerGame>
+                <AssistsPerGame>6.5</AssistsPerGame>
+                <ReboundsPerGame>3.8</ReboundsPerGame>
+                <TeamID>10</TeamID>
+                <StateID>10</StateID>
+            </row>
+            <row>
+                <PlayerID>18</PlayerID>
+                <Name>Jalen Suggs</Name>
+                <Age>20</Age>
+                <BirthDate>2001-06-03</BirthDate>
+                <Height>6.4</Height>
+                <Weight>205</Weight>
+                <Position>Point Guard</Position>
+                <College>Gonzaga University</College>
+                <Attendance>18</Attendance>
+                <Awards>12</Awards>
+                <NumberofWins>7</NumberofWins>
+                <NumberofLosses>9</NumberofLosses>
+                <NumberofDraws>1</NumberofDraws>
+                <FieldGoalPercentage>45.9</FieldGoalPercentage>
+                <FreeThrowPercentage>81.6</FreeThrowPercentage>
+                <ThreePointPercentage>37.4</ThreePointPercentage>
+                <NumberOfPenalties>2</NumberOfPenalties>
+                <PointsPerGame>18.3</PointsPerGame>
+                <AssistsPerGame>5.8</AssistsPerGame>
+                <ReboundsPerGame>4.2</ReboundsPerGame>
+                <TeamID>11</TeamID>
+                <StateID>11</StateID>
+            </row>
+            <row>
+                <PlayerID>19</PlayerID>
+                <Name>Dejounte Murray</Name>
+                <Age>25</Age>
+                <BirthDate>1996-09-19</BirthDate>
+                <Height>6.4</Height>
+                <Weight>180</Weight>
+                <Position>Point Guard</Position>
+                <College>University of Washington</College>
+                <Attendance>17</Attendance>
+                <Awards>12</Awards>
+                <NumberofWins>7</NumberofWins>
+                <NumberofLosses>8</NumberofLosses>
+                <NumberofDraws>2</NumberofDraws>
+                <FieldGoalPercentage>42.6</FieldGoalPercentage>
+                <FreeThrowPercentage>83.1</FreeThrowPercentage>
+                <ThreePointPercentage>33.8</ThreePointPercentage>
+                <NumberOfPenalties>1</NumberOfPenalties>
+                <PointsPerGame>17.2</PointsPerGame>
+                <AssistsPerGame>6.3</AssistsPerGame>
+                <ReboundsPerGame>4.9</ReboundsPerGame>
+                <TeamID>11</TeamID>
+                <StateID>11</StateID>
+            </row>
+            <row>
+                <PlayerID>20</PlayerID>
+                <Name>Cole Anthony</Name>
+                <Age>21</Age>
+                <BirthDate>2000-05-15</BirthDate>
+                <Height>6.2</Height>
+                <Weight>190</Weight>
+                <Position>Point Guard</Position>
+                <College>University of North Carolina</College>
+                <Attendance>16</Attendance>
+                <Awards>9</Awards>
+                <NumberofWins>8</NumberofWins>
+                <NumberofLosses>9</NumberofLosses>
+                <NumberofDraws>3</NumberofDraws>
+                <FieldGoalPercentage>39.8</FieldGoalPercentage>
+                <FreeThrowPercentage>79.4</FreeThrowPercentage>
+                <ThreePointPercentage>30.5</ThreePointPercentage>
+                <NumberOfPenalties>2</NumberOfPenalties>
+                <PointsPerGame>14.8</PointsPerGame>
+                <AssistsPerGame>5.9</AssistsPerGame>
+                <ReboundsPerGame>3.4</ReboundsPerGame>
+                <TeamID>12</TeamID>
+                <StateID>12</StateID>
+            </row>
+            <row>
+                <PlayerID>21</PlayerID>
+                <Name>Cade Cunningham</Name>
+                <Age>20</Age>
+                <BirthDate>2001-09-25</BirthDate>
+                <Height>6.8</Height>
+                <Weight>220</Weight>
+                <Position>Point Guard</Position>
+                <College>Oklahoma State University</College>
+                <Attendance>18</Attendance>
+                <Awards>13</Awards>
+                <NumberofWins>6</NumberofWins>
+                <NumberofLosses>7</NumberofLosses>
+                <NumberofDraws>1</NumberofDraws>
+                <FieldGoalPercentage>44.3</FieldGoalPercentage>
+                <FreeThrowPercentage>87.2</FreeThrowPercentage>
+                <ThreePointPercentage>35.6</ThreePointPercentage>
+                <NumberOfPenalties>2</NumberOfPenalties>
+                <PointsPerGame>19.5</PointsPerGame>
+                <AssistsPerGame>6.8</AssistsPerGame>
+                <ReboundsPerGame>5.2</ReboundsPerGame>
+                <TeamID>11</TeamID>
+                <StateID>11</StateID>
+            </row>
+        </table>
+
+        <table name="Team">
+            <row>
+                <TeamID>1</TeamID>
+                <TeamName>Los Angeles Lakers</TeamName>
+                <Sponsor>Nike</Sponsor>
+                <Founded>1947</Founded>
+                <Record>20-15</Record>
+                <Wins>20</Wins>
+                <Losses>15</Losses>
+                <Draws>0</Draws>
+                <Rank>1</Rank>
+            </row>
+            <row>
+                <TeamID>2</TeamID>
+                <TeamName>Golden State Warriors</TeamName>
+                <Sponsor>Under Armour</Sponsor>
+                <Founded>1946</Founded>
+                <Record>22-3</Record>
+                <Wins>22</Wins>
+                <Losses>3</Losses>
+                <Draws>0</Draws>
+                <Rank>2</Rank>
+            </row>
+            <row>
+                <TeamID>3</TeamID>
+                <TeamName>Brooklyn Nets</TeamName>
+                <Sponsor>Adidas</Sponsor>
+                <Founded>1967</Founded>
+                <Record>18-17</Record>
+                <Wins>18</Wins>
+                <Losses>17</Losses>
+                <Draws>0</Draws>
+                <Rank>3</Rank>
+            </row>
+            <row>
+                <TeamID>4</TeamID>
+                <TeamName>Milwaukee Bucks</TeamName>
+                <Sponsor>Puma</Sponsor>
+                <Founded>1968</Founded>
+                <Record>23-12</Record>
+                <Wins>23</Wins>
+                <Losses>12</Losses>
+                <Draws>0</Draws>
+                <Rank>4</Rank>
+            </row>
+            <row>
+                <TeamID>5</TeamID>
+                <TeamName>Phoenix Suns</TeamName>
+                <Sponsor>State Farm</Sponsor>
+                <Founded>1968</Founded>
+                <Record>21-14</Record>
+                <Wins>21</Wins>
+                <Losses>14</Losses>
+                <Draws>0</Draws>
+                <Rank>5</Rank>
+            </row>
+            <row>
+                <TeamID>6</TeamID>
+                <TeamName>Philadelphia 76ers</TeamName>
+                <Sponsor>StubHub</Sponsor>
+                <Founded>1946</Founded>
+                <Record>24-11</Record>
+                <Wins>24</Wins>
+                <Losses>11</Losses>
+                <Draws>0</Draws>
+                <Rank>6</Rank>
+            </row>
+            <row>
+                <TeamID>7</TeamID>
+                <TeamName>Utah Jazz</TeamName>
+                <Sponsor>Qualtrics</Sponsor>
+                <Founded>1974</Founded>
+                <Record>25-10</Record>
+                <Wins>25</Wins>
+                <Losses>10</Losses>
+                <Draws>0</Draws>
+                <Rank>7</Rank>
+            </row>
+            <row>
+                <TeamID>8</TeamID>
+                <TeamName>Miami Heat</TeamName>
+                <Sponsor>American Airlines</Sponsor>
+                <Founded>1988</Founded>
+                <Record>20-15</Record>
+                <Wins>20</Wins>
+                <Losses>15</Losses>
+                <Draws>0</Draws>
+                <Rank>8</Rank>
+            </row>
+            <row>
+                <TeamID>9</TeamID>
+                <TeamName>Minnesota Timberwolves</TeamName>
+                <Sponsor>Fitbit</Sponsor>
+                <Founded>1989</Founded>
+                <Record>18-17</Record>
+                <Wins>18</Wins>
+                <Losses>17</Losses>
+                <Draws>0</Draws>
+                <Rank>9</Rank>
+            </row>
+            <row>
+                <TeamID>10</TeamID>
+                <TeamName>Chicago Bulls</TeamName>
+                <Sponsor>United Airlines</Sponsor>
+                <Founded>1966</Founded>
+                <Record>19-16</Record>
+                <Wins>19</Wins>
+                <Losses>16</Losses>
+                <Draws>0</Draws>
+                <Rank>10</Rank>
+            </row>
+            <row>
+                <TeamID>11</TeamID>
+                <TeamName>San Antonio Spurs</TeamName>
+                <Sponsor>Frost Bank</Sponsor>
+                <Founded>1967</Founded>
+                <Record>15-20</Record>
+                <Wins>15</Wins>
+                <Losses>20</Losses>
+                <Draws>0</Draws>
+                <Rank>11</Rank>
+            </row>
+            <row>
+                <TeamID>12</TeamID>
+                <TeamName>Orlando Magic</TeamName>
+                <Sponsor>Disney</Sponsor>
+                <Founded>1989</Founded>
+                <Record>14-21</Record>
+                <Wins>14</Wins>
+                <Losses>21</Losses>
+                <Draws>0</Draws>
+                <Rank>12</Rank>
+            </row>
+            <row>
+                <TeamID>13</TeamID>
+                <TeamName>Detroit Pistons</TeamName>
+                <Sponsor>Rocket Mortgage</Sponsor>
+                <Founded>1941</Founded>
+                <Record>10-19</Record>
+                <Wins>10</Wins>
+                <Losses>19</Losses>
+                <Draws>0</Draws>
+                <Rank>13</Rank>
+            </row>
+            <row>
+                <TeamID>14</TeamID>
+                <TeamName>Washington Wizards</TeamName>
+                <Sponsor>Capital One</Sponsor>
+                <Founded>1961</Founded>
+                <Record>11-18</Record>
+                <Wins>11</Wins>
+                <Losses>18</Losses>
+                <Draws>0</Draws>
+                <Rank>14</Rank>
+            </row>
+        </table>
+
+        <table name="Game">
+            <row>
+                <GameID>1</GameID>
+                <Date>2024-03-10</Date>
+                <Venue>Staples Center</Venue>
+                <Attendance>18000</Attendance>
+                <Awards>1</Awards>
+            </row>
+            <row>
+                <GameID>2</GameID>
+                <Date>2024-03-12</Date>
+                <Venue>Chase Center</Venue>
+                <Attendance>15000</Attendance>
+                <Awards>2</Awards>
+            </row>
+            <row>
+                <GameID>3</GameID>
+                <Date>2024-03-15</Date>
+                <Venue>Barclays Center</Venue>
+                <Attendance>17000</Attendance>
+                <Awards>3</Awards>
+            </row>
+            <row>
+                <GameID>4</GameID>
+                <Date>2024-03-17</Date>
+                <Venue>Fiserv Forum</Venue>
+                <Attendance>16000</Attendance>
+                <Awards>4</Awards>
+            </row>
+            <row>
+                <GameID>5</GameID>
+                <Date>2024-03-20</Date>
+                <Venue>Talking Stick Resort Arena</Venue>
+                <Attendance>18000</Attendance>
+                <Awards>5</Awards>
+            </row>
+            <row>
+                <GameID>6</GameID>
+                <Date>2024-03-22</Date>
+                <Venue>Wells Fargo Center</Venue>
+                <Attendance>16000</Attendance>
+                <Awards>6</Awards>
+            </row>
+            <row>
+                <GameID>7</GameID>
+                <Date>2024-03-25</Date>
+                <Venue>Vivint Arena</Venue>
+                <Attendance>20000</Attendance>
+                <Awards>7</Awards>
+            </row>
+            <row>
+                <GameID>8</GameID>
+                <Date>2024-03-27</Date>
+                <Venue>American Airlines Arena</Venue>
+                <Attendance>19000</Attendance>
+                <Awards>8</Awards>
+            </row>
+            <row>
+                <GameID>9</GameID>
+                <Date>2024-03-30</Date>
+                <Venue>Target Center</Venue>
+                <Attendance>18000</Attendance>
+                <Awards>9</Awards>
+            </row>
+            <row>
+                <GameID>10</GameID>
+                <Date>2024-04-01</Date>
+                <Venue>United Center</Venue>
+                <Attendance>17000</Attendance>
+                <Awards>10</Awards>
+            </row>
+            <row>
+                <GameID>11</GameID>
+                <Date>2024-04-03</Date>
+                <Venue>AT&T Center</Venue>
+                <Attendance>16000</Attendance>
+                <Awards>11</Awards>
+            </row>
+            <row>
+                <GameID>12</GameID>
+                <Date>2024-04-05</Date>
+                <Venue>Amway Center</Venue>
+                <Attendance>15000</Attendance>
+                <Awards>12</Awards>
+            </row>
+            <row>
+                <GameID>13</GameID>
+                <Date>2024-04-08</Date>
+                <Venue>Little Caesars Arena</Venue>
+                <Attendance>16000</Attendance>
+                <Awards>13</Awards>
+            </row>
+            <row>
+                <GameID>14</GameID>
+                <Date>2024-04-10</Date>
+                <Venue>Capital One Arena</Venue>
+                <Attendance>15000</Attendance>
+                <Awards>14</Awards>
+            </row>
+        </table>
+
+        <table name="Manager">
+            <row>
+                <ManagerID>1</ManagerID>
+                <Name>Frank Vogel</Name>
+            </row>
+            <row>
+                <ManagerID>2</ManagerID>
+                <Name>Steve Kerr</Name>
+            </row>
+            <row>
+                <ManagerID>3</ManagerID>
+                <Name>Steve Nash</Name>
+            </row>
+            <row>
+                <ManagerID>4</ManagerID>
+                <Name>Mike Budenholzer</Name>
+            </row>
+            <row>
+                <ManagerID>5</ManagerID>
+                <Name>Monty Williams</Name>
+            </row>
+            <row>
+                <ManagerID>6</ManagerID>
+                <Name>Doc Rivers</Name>
+            </row>
+            <row>
+                <ManagerID>7</ManagerID>
+                <Name>Quin Snyder</Name>
+            </row>
+            <row>
+                <ManagerID>8</ManagerID>
+                <Name>Erik Spoelstra</Name>
+            </row>
+            <row>
+                <ManagerID>9</ManagerID>
+                <Name>Chris Finch</Name>
+            </row>
+            <row>
+                <ManagerID>10</ManagerID>
+                <Name>Billy Donovan</Name>
+            </row>
+            <row>
+                <ManagerID>11</ManagerID>
+                <Name>Gregg Popovich</Name>
+            </row>
+            <row>
+                <ManagerID>12</ManagerID>
+                <Name>Jamahl Mosley</Name>
+            </row>
+            <row>
+                <ManagerID>13</ManagerID>
+                <Name>Dwane Casey</Name>
+            </row>
+            <row>
+                <ManagerID>14</ManagerID>
+                <Name>Wes Unseld Jr.</Name>
+            </row>
+        </table>
+
+        <table name="State">
+            <row>
+                <StateID>1</StateID>
+                <Name>California</Name>
+                <Conference>West</Conference>
+            </row>
+            <row>
+                <StateID>2</StateID>
+                <Name>New York</Name>
+                <Conference>East</Conference>
+            </row>
+            <row>
+                <StateID>3</StateID>
+                <Name>Texas</Name>
+                <Conference>West</Conference>
+            </row>
+            <row>
+                <StateID>4</StateID>
+                <Name>Wisconsin</Name>
+                <Conference>East</Conference>
+            </row>
+            <row>
+                <StateID>5</StateID>
+                <Name>Arizona</Name>
+                <Conference>West</Conference>
+            </row>
+            <row>
+                <StateID>6</StateID>
+                <Name>Pennsylvania</Name>
+                <Conference>East</Conference>
+            </row>
+            <row>
+                <StateID>7</StateID>
+                <Name>Utah</Name>
+                <Conference>West</Conference>
+            </row>
+            <row>
+                <StateID>8</StateID>
+                <Name>Florida</Name>
+                <Conference>East</Conference>
+            </row>
+            <row>
+                <StateID>9</StateID>
+                <Name>Minnesota</Name>
+                <Conference>West</Conference>
+            </row>
+            <row>
+                <StateID>10</StateID>
+                <Name>Illinois</Name>
+                <Conference>East</Conference>
+            </row>
+            <row>
+                <StateID>11</StateID>
+                <Name>Michigan</Name>
+                <Conference>East</Conference>
+            </row>
+            <row>
+                <StateID>12</StateID>
+                <Name>Washington</Name>
+                <Conference>East</Conference>
+            </row>
+            <row>
+                <StateID>13</StateID>
+                <Name>Oregon</Name>
+                <Conference>West</Conference>
+            </row>
+            <row>
+                <StateID>14</StateID>
+                <Name>Colorado</Name>
+                <Conference>West</Conference>
+            </row>
+        </table>
+
+
+        <table name="Player_Game">
+            <row>
+                <PlayerID>1</PlayerID>
+                <GameID>1</GameID>
+            </row>
+            <row>
+                <PlayerID>2</PlayerID>
+                <GameID>1</GameID>
+            </row>
+            <row>
+                <PlayerID>3</PlayerID>
+                <GameID>2</GameID>
+            </row>
+            <row>
+                <PlayerID>4</PlayerID>
+                <GameID>3</GameID>
+            </row>
+            <row>
+                <PlayerID>5</PlayerID>
+                <GameID>3</GameID>
+            </row>
+            <row>
+                <PlayerID>6</PlayerID>
+                <GameID>4</GameID>
+            </row>
+            <row>
+                <PlayerID>7</PlayerID>
+                <GameID>5</GameID>
+            </row>
+            <row>
+                <PlayerID>8</PlayerID>
+                <GameID>5</GameID>
+            </row>
+            <row>
+                <PlayerID>9</PlayerID>
+                <GameID>6</GameID>
+            </row>
+            <row>
+                <PlayerID>10</PlayerID>
+                <GameID>7</GameID>
+            </row>
+            <row>
+                <PlayerID>11</PlayerID>
+                <GameID>7</GameID>
+            </row>
+            <row>
+                <PlayerID>12</PlayerID>
+                <GameID>8</GameID>
+            </row>
+            <row>
+                <PlayerID>13</PlayerID>
+                <GameID>9</GameID>
+            </row>
+            <row>
+                <PlayerID>14</PlayerID>
+                <GameID>9</GameID>
+            </row>
+            <row>
+                <PlayerID>15</PlayerID>
+                <GameID>10</GameID>
+            </row>
+            <row>
+                <PlayerID>16</PlayerID>
+                <GameID>11</GameID>
+            </row>
+            <row>
+                <PlayerID>17</PlayerID>
+                <GameID>11</GameID>
+            </row>
+            <row>
+                <PlayerID>18</PlayerID>
+                <GameID>12</GameID>
+            </row>
+            <row>
+                <PlayerID>19</PlayerID>
+                <GameID>13</GameID>
+            </row>
+            <row>
+                <PlayerID>20</PlayerID>
+                <GameID>13</GameID>
+            </row>
+            <row>
+                <PlayerID>21</PlayerID>
+                <GameID>14</GameID>
+            </row>
+        </table>
+
+        <table name="Game_Team">
+            <row>
+                <GameID>1</GameID>
+                <TeamID>1</TeamID>
+            </row>
+            <row>
+                <GameID>1</GameID>
+                <TeamID>2</TeamID>
+            </row>
+            <row>
+                <GameID>2</GameID>
+                <TeamID>1</TeamID>
+            </row>
+            <row>
+                <GameID>2</GameID>
+                <TeamID>2</TeamID>
+            </row>
+            <row>
+                <GameID>3</GameID>
+                <TeamID>3</TeamID>
+            </row>
+            <row>
+                <GameID>3</GameID>
+                <TeamID>4</TeamID>
+            </row>
+            <row>
+                <GameID>4</GameID>
+                <TeamID>3</TeamID>
+            </row>
+            <row>
+                <GameID>4</GameID>
+                <TeamID>4</TeamID>
+            </row>
+            <row>
+                <GameID>5</GameID>
+                <TeamID>5</TeamID>
+            </row>
+            <row>
+                <GameID>5</GameID>
+                <TeamID>6</TeamID>
+            </row>
+            <row>
+                <GameID>6</GameID>
+                <TeamID>5</TeamID>
+            </row>
+            <row>
+                <GameID>6</GameID>
+                <TeamID>6</TeamID>
+            </row>
+            <row>
+                <GameID>7</GameID>
+                <TeamID>7</TeamID>
+            </row>
+            <row>
+                <GameID>7</GameID>
+                <TeamID>8</TeamID>
+            </row>
+            <row>
+                <GameID>8</GameID>
+                <TeamID>7</TeamID>
+            </row>
+            <row>
+                <GameID>8</GameID>
+                <TeamID>8</TeamID>
+            </row>
+            <row>
+                <GameID>9</GameID>
+                <TeamID>9</TeamID>
+            </row>
+            <row>
+                <GameID>9</GameID>
+                <TeamID>10</TeamID>
+            </row>
+            <row>
+                <GameID>10</GameID>
+                <TeamID>9</TeamID>
+            </row>
+            <row>
+                <GameID>10</GameID>
+                <TeamID>10</TeamID>
+            </row>
+            <row>
+                <GameID>11</GameID>
+                <TeamID>11</TeamID>
+            </row>
+            <row>
+                <GameID>11</GameID>
+                <TeamID>12</TeamID>
+            </row>
+            <row>
+                <GameID>12</GameID>
+                <TeamID>11</TeamID>
+            </row>
+            <row>
+                <GameID>12</GameID>
+                <TeamID>12</TeamID>
+            </row>
+            <row>
+                <GameID>13</GameID>
+                <TeamID>13</TeamID>
+            </row>
+            <row>
+                <GameID>13</GameID>
+                <TeamID>14</TeamID>
+            </row>
+            <row>
+                <GameID>14</GameID>
+                <TeamID>13</TeamID>
+            </row>
+            <row>
+                <GameID>14</GameID>
+                <TeamID>14</TeamID>
+            </row>
+        </table>
+    </tables>
+</database>
+
+
